@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  
+table, tr, td ,th{
+  border:0.5px solid black;
+  
+}
+#delete
+{
+  color: aliceblue;
+background-color: red;
+}
+#delete1
+{
+  color: aliceblue;
+background-color: red;
+}
+#add{
+  color: aliceblue;
+background-color: rgb(88, 170, 247);
+}
+#add1{
+  color: aliceblue;
+background-color: rgb(88, 170, 247);
+}
+#add2{
+  color: aliceblue;
+background-color: rgb(88, 170, 247);
+}
+
+</style>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>Product Info</th>
+    <th>Quantity</th>
+    <th>Price(per unit)</th>
+    <th>Price(subtotal)</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><img src="book3.webp" width="150" height="150" alt=""><B>INDIA HISTROY</B></td>
+    <td><input  type="text" id="a1"><button id="add2" onclick="subTotal1()">+</button></td>
+    <td id="p1"></td>
+    <td id="q1"></td>
+    <td id="r1"><button id="delete1" onclick="delete1()" >Remove</button></td>
+  </tr>
+  <tr>
+    <td><img src="book1.jpg" width="150" height="150" alt=""><B>A.P.L ABDUL KALAM</B></td>
+    <td><input  type="text" id="a2" ><button id="add1" onclick="subTotal2()">+</button></td>
+    <td id="p2"></td>
+    <td id="q2"></td>
+    <td id="r2"><button id="delete" onclick="delete2()">Remove</button></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td ><input type="text"id="q3" ><button id="add" onclick="allSubtotal()">Add</button></td>
+    <td></td>
+  </tr>
+</table>
+<script src="module2.js"></script>
+
+</body>
+</html>
+</html>
